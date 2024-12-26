@@ -1,0 +1,512 @@
+@media (max-width: 479px) {
+  .content-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .content-wrapper .content-wrapper {
+    width: 100%;
+  }
+  .content-wrapper h1,
+  .content-wrapper h2,
+  .content-wrapper h3,
+  .content-wrapper h4,
+  .content-wrapper p {
+    max-width: 100%;
+    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content-wrapper ul,
+  .content-wrapper ol {
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .content-wrapper p a img {
+    max-width: 100%;
+    height: auto;
+  }
+  .iframeContainer iframe {
+    width: 100%;
+    height: 271px;
+  }
+  .printPage {
+    margin-top: -15px;
+  }
+  .printPage a {
+    float: left;
+  }
+  .typeinfo {
+    margin-top: 5px;
+  }
+  .spielplan-description {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .spielplan-event.border-oper > div {
+    border-left: 5px solid #d21a1a;
+  }
+  .spielplan-event.border-konzert > div {
+    border-left: 5px solid #0057a5;
+  }
+  .spielplan-event.border-ballett > div {
+    border-left: 5px solid #7fa0b2;
+  }
+  .spielplan-event.border-jung > div {
+    border-left: 5px solid #feda00;
+  }
+  .spielplan-event.border-gold > div {
+    border-left: 5px solid #ccc49a;
+  }
+  .spielplan-event p.besetzung {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .overv_container p .spielplan-arrow-left {
+    bottom: 0;
+  }
+  a.moreInfoLink {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .spielplan-arrow-left {
+    bottom: 5px;
+  }
+  #programm-mobile-nav p {
+    font-size: 25px;
+  }
+  .detailPreHeadline {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .content-wrapper h1 {
+    font-size: 27px;
+    line-height: 1.2;
+  }
+  h1 {
+    margin: 25px 0;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 34px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  #moreInfo {
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 30px 0 0;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .overv_container .overv_premiere,
+  .overv_container .overv_next,
+  .overv_container .overv_nomore {
+    box-sizing: border-box;
+    margin-left: 0;
+    padding: 0 50px 0 20px;
+  }
+  .overv_container .overv_next,
+  .overv_container .overv_nomore {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .overv_container .overv_premiere {
+    margin-top: 28px;
+  }
+  #section-staatsoper,
+  #section-jung {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .text-left {
+    width: 100%;
+  }
+  .img-right {
+    max-width: 100%;
+  }
+  .text-right {
+    width: 100%;
+  }
+  .img-left {
+    max-width: 100%;
+  }
+  .img-big {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+  }
+  .img-title {
+    width: 100%;
+  }
+  .text-text {
+    width: 100%;
+  }
+  nav #mobile-nav {
+    width: 278px;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+  nav ul li:nth-of-type(2) {
+    margin-right: 60px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul li img {
+    width: 40px;
+  }
+  #programm-nav li a,
+  #page-nav li a {
+    font-size: 25px;
+    padding: 5px 0;
+  }
+  .search-icon img,
+  nav ul li a img {
+    margin-top: -10px;
+  }
+  header#opernstudio {
+    overflow: visible;
+  }
+  #opernstudio-header {
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  #opernstudio-header img {
+    width: 100% !important;
+  }
+  #opernstudio-title {
+    bottom: -55px !important;
+  }
+  header {
+    height: auto;
+    overflow: hidden;
+  }
+  .slider-caption-title {
+    font-size: 20px;
+    margin-bottom: 0 !important;
+    padding-right: 40px;
+  }
+  .slider-caption .slider-caption-more {
+    line-height: 1.5;
+  }
+  .slider-caption-artist {
+    line-height: 1.5;
+  }
+  .slider-caption .slider-caption-more,
+  .slider-caption-artist {
+    font-size: 14px !important;
+  }
+  #header-slider {
+    width: 100% !important;
+  }
+  #header-map {
+    width: 100%;
+  }
+  #search-overlay {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px 20px 0;
+  }
+  #search-overlay p {
+    font-size: 24px;
+  }
+  #search-overlay form {
+    margin-left: 0;
+  }
+  .searchInput {
+    width: 100%;
+    font-size: 20px;
+  }
+  #filter-title,
+  #filter-title-2 {
+    width: 345px;
+  }
+  .filter-select {
+    width: 370px;
+  }
+  .select-list-1,
+  .select-list-2,
+  .select-list-3,
+  .select-list-4 {
+    width: 358px;
+  }
+  .startseite-event {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .startseite-event img:first-of-type {
+    width: 100%;
+  }
+  .startseite-event p {
+    margin-left: 0;
+  }
+  .startseite-event-img-wrapper {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+  .spielplan-event .sellstatus0,
+  .spielplan-event .sellstatus1,
+  .spielplan-event .sellstatus2,
+  .spielplan-event .sellstatus3,
+  .spielplan-event .sellstatus4,
+  .spielplan-event .sellstatus5,
+  .spielplan-event .sellstatus6,
+  .spielplan-event .sellstatus7,
+  .spielplan-event .sellstatus8,
+  .spielplan-event .sellstatus9,
+  .spielplan-event .sellstatus10,
+  .spielplan-event .sellstatus11,
+  .spielplan-event .sellstatus12,
+  .spielplan-event .sellstatus13,
+  .spielplan-event .sellstatus14,
+  .spielplan-event .sellstatus15,
+  .spielplan-event .sellstatus16 {
+    font-size: 15px;
+    right: 8px;
+    margin-left: 10px;
+  }
+  .spielplan-event .sellstatus14 {
+    font-size: 13px;
+  }
+  p.startseite-event-title2 {
+    padding-top: 0;
+  }
+  #spielplan .buy-cards {
+    /* width: 120px; */
+    right: auto;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .spielplan-event > div {
+    width: auto;
+    padding: 10px 10px 20px;
+  }
+  .spielplan-date {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 0 !important;
+  }
+  .spielplan-location,
+  .spielplan-artist {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .spielplan-artist {
+    margin: 5px 0 !important;
+  }
+  .spielplan-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  #spielplan p {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  #filter-title p,
+  #filter-title-2 p {
+    font-size: 24px;
+  }
+  #filter-title,
+  #filter-title-2 {
+    width: 100%;
+  }
+  .philhDetailH2 {
+    font-size: 20px;
+  }
+  .philhDetailH3 {
+    font-size: 20px;
+  }
+  .philDetailSubtitle {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .philCastPopup h1 {
+    font-size: 20px;
+    font-family: "Nexa W04 Bold1279264";
+    line-height: 1.5 !important;
+  }
+  .printPage .buy-cards {
+    margin-left: 20px;
+  }
+  .printPage .restriction img {
+    position: relative !important;
+  }
+  .weitereTermineWrapper .buy-cards {
+    font-size: 16px;
+    background-size: 35px !important;
+    padding-right: 45px;
+  }
+  .content-wrapper .besetzung-info ul,
+  .content-wrapper .besetzung-info ol {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .empfehlungen {
+    margin-top: 20px;
+  }
+  .slider-empfehlungen {
+    xwidth: auto;
+  }
+  .slider-empfehlungen > div {
+    xwidth: auto;
+    xbox-sizing: border-box;
+    xpadding: 0 20px;
+  }
+  .programm-empfohlen {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .programm-empfohlen p {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .gallery {
+    width: 100%;
+  }
+  .gallery .lightbox-gallery {
+    width: 100%;
+  }
+  .gallery .lightbox-gallery img {
+    margin: 0;
+    width: 320px;
+    -max-width: 100%;
+    height: auto !important;
+  }
+  .videoimpression {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 20px;
+  }
+  .programm-besetzung {
+    width: 50%;
+    height: 300px;
+    margin: 0;
+    padding: 7px;
+    box-sizing: border-box;
+  }
+  .programm-besetzung .programm-besetzung-img {
+    height: auto;
+    line-height: 0;
+  }
+  .programm-besetzung p {
+    line-height: 22px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .programm-besetzung .programm-besetzung-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #online-kartenkauf form {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .kartenkauf-select-list {
+    width: 100%;
+  }
+  .filter-select-box {
+    padding: 17px 10px;
+  }
+  #online-kartenkauf form p {
+    font-size: 17px !important;
+  }
+  .filter-select-box .filter-select-list {
+    margin-left: -10px;
+  }
+  .filter-select-box .filter-select-list ul li {
+    font-size: 17px;
+  }
+  .form-button {
+    margin: 25px 0;
+    font-size: 17px;
+    text-align: left;
+  }
+  #ihre-meinung form {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+  #ihre-meinung form input {
+    width: 100% !important;
+    margin-left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #ihre-meinung form textarea {
+    width: 100% !important;
+    margin-left: 0 !important;
+    box-sizing: border-box;
+  }
+  #ihre-meinung form p {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  #ihre-meinung table p {
+    margin-left: 0;
+  }
+  .pressebild h2,
+  .pressebild p {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .pressealbum-bild {
+    min-height: 0;
+  }
+  table.blueline {
+    table-layout: fixed;
+    font-size: 11px;
+    margin-left: -10px;
+  }
+  #mobile-footer-nav p {
+    margin: 0 20px 2px 20px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  ul.mobile-footer-nav li {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    padding: 0;
+  }
+  ul.mobile-footer-nav li a {
+    display: block;
+    margin: 0;
+    padding: 12px 0;
+  }
+  footer ul li {
+    margin: 10px 0;
+  }
+  footer ul#social-media li {
+    margin: 0;
+    width: 60px;
+  }
+  footer #hotline {
+    font-size: 20px;
+  }
+}
